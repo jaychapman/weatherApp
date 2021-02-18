@@ -1,7 +1,7 @@
 const getWeatherBtn = document.getElementById('getWeather');
 
-//const API = process.env.API_KEY;
-const API = 'b40e641e8611df755f76972c6857696e';
+const API = process.env.API_KEY;
+
 
 const getCity = (() => {
   getWeatherBtn.addEventListener('click', (e) => {
